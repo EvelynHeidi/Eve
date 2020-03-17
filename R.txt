@@ -1,0 +1,16 @@
+> data=read.csv("D:/Annexure_J.csv")
+> mean=mean(data$SanctionedStrength)
+> cat("the mean value of SanctionedStrength is ",mean)
+the mean value of SanctionedStrength is  1254> 
+> median=median(data$SanctionedStrength)
+> cat("the median value of SanctionedStrength is ",median)
+the median value of SanctionedStrength is  430>
+> variance=var(data$SanctionedStrength)
+> cat("the variance value of SanctionedStrength is ",variance)
+the variance value of SanctionedStrength is  14337680> 
+> range_value=range(data$SanctionedStrength)
+> cat("the range value of SanctionedStrength is ",range_value)
+the range value of SanctionedStrength is  3 23199>
+> standard_deviation=sd(data$SanctionedStrength)
+> cat("the standard deviation value of SanctionedStrength is ",standard_deviation)
+the standard deviation value of SanctionedStrength is  3786.513>
